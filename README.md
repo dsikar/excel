@@ -71,7 +71,7 @@ End Function
 ```
 ' Copy rows 1 to 4 from wks2 sheet to wks3 sheet beginning at row 12
 wks2.Rows("1:4").Copy wks3.Rows("12")
-' Copy cell ranges
+' Copy cell ranges - NB ranges must match e.g. number of rows x cels identical in both
 wks2.Range("A1:B4").Copy wks3.Range("D6:E9")
 ```
 
