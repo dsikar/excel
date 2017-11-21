@@ -1,6 +1,8 @@
 # excel
 
-Excel job to implement vlookup style functionality with if statements, to compare two or more sheets in the same or different workbooks and add rows as applicable to a third workbook.
+Excel job to implement vlookup style functionality with if statements, to compare   
+two or more sheets in the same or different workbooks and add rows as applicable  
+to a third workbook.
 
 NB When running macros, path of least resistance (bypass saving worksheet with  
 macro) is to import and export macros as required. For this end, open a workbook  
