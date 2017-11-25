@@ -1,0 +1,1 @@
+=SUMIF('Cycle by Cycle'!$U:$U,"Payer USD"&$H$1514&$B1516,'Cycle by Cycle'!$I:$I)
