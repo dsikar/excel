@@ -1,1 +1,33 @@
-=SUMIF('Cycle by Cycle'!$U:$U,"Payer USD"&$H$1514&$B1516,'Cycle by Cycle'!$I:$I)
+SUMIF  
+
+From https://support.office.com/en-gb/article/SUMIF-function-169b8c99-c05c-4483-a712-1697a653039b  
+
+Syntax  
+
+SUMIF(range, criteria, [sum_range])  
+
+The SUMIF function syntax has the following arguments:  
+
+range   Required. The range of cells that you want evaluated by criteria. Cells in each range must be numbers or names, arrays, or references that contain numbers. Blank and text values are ignored. The selected range may contain dates in standard Excel format (examples below).  
+
+criteria   Required. The criteria in the form of a number, expression, a cell reference, text, or a function that defines which cells will be added. For example, criteria can be expressed as 32, ">32", B5, "32", "apples", or TODAY().  
+
+
+
+=SUMIF('Cycle by Cycle'!$U:$U,"Payer USD"&$H$1514&$B1516,'Cycle by Cycle'!$I:$I)  
+
+What it means:  
+
+range:  
+'Cycle by Cycle'!$U:$U - Exclamation mark is reference to another sheet in same workbook, $ sign and colon, row U in that worksheet
+
+Criteria:  
+"Payer USB" and  
+&$H$1514 - Absolute reference to cell H1514 and
+&$B1516 - Relative reference to cell B1516 (confirm)
+
+sum_range:  
+All items in column I that match criteria (TODO confirm)
+
+
+
